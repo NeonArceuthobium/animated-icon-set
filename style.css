@@ -1,35 +1,46 @@
-/* Diagnostic Styling */
-* {
-  outline: 2px dotted gray;
-} 
-
-/* temp background color */
-body {
-    background: lightgray;
-}
-  
-/* vertical and horizontal centering */
-body {
-  display: grid;
-  place-content: center;
-  height: 100vh;
+body{
+  background: deepskyblue;
 }
 
-/* containers */
-main {
+div {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Space between the SVGs */
 }
 
-/* cptionally changef */
-main section {
-  height: 100px;
-  width: 100px;
-}
-
-/* scale SVG to fit container */
-svg {
-  width: 100%; /* or any specific size */
+div svg {
+  /* Force each SVG to have the same width */
+  width: 30vw;
+  /* Set height to auto so aspect ratio is preserved */
   height: auto;
-  /* Center and fit */
-  preserveAspectRatio: xMidYMid meet;
+}
+
+
+  /* This ensures the arm inverts the colors behind it */
+    .arm {
+      mix-blend-mode: difference;
+      fill: deepskyblue;
+      
+    }
+.head{
+  
+  fill: #ffd700;
+}
+.torso {
+  fill: #ffd700;
+}
+
+.monitorUp, .monitorDown {
+    stroke: #ffd700;
+  
+}
+
+.arrowUp, .arrowDown{
+
+stroke: #FF18FF;
+  
+}
+svg {
+  border-radius: 20px 20px 20px 20px
 }

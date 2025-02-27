@@ -15,6 +15,6 @@
 ## Citations
 * Icons from [Lucide](https://lucide.dev/)
 * Use [GreenSock](https://greensock.com/) animation library
-* [Normalize CSS](https://necolas.github.io/normalize.css/)
-
+* [Colin CSS](https://codepen.io/manikoth/pen/NNNBYe.css)
+* [Chat GPT](https://chatgpt.com/)
 
